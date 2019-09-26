@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style media="screen">
+      body {
+        padding: 30px;
+        background-color: grey;
+      }
+      .container {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 id="demo">This is how javacript works!</h1>
+
+        <button type="button" onclick="clickButton()">Try it!</button>
+      </div>
+    </div>
+
+    <script>
+      function clickButton() {
+        document.getElementById("demo").innerHTML = "Isn't it wonderful?";
+      }
+    </script>
+  </body>
+</html>
